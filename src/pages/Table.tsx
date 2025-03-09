@@ -14,8 +14,8 @@ const columns: GridColDef[] = [
 
 export default function Table() {
   return (
-    <div style={{ height: 300, width: '60%' }}>
-      <DataGrid rows={rows} columns={columns} />
+    <div style={{ width: '60%' }}>
+      <DataGrid autoHeight rows={rows} columns={columns} />
     </div>
   )
 }
